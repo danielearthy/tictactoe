@@ -1,0 +1,47 @@
+body{
+  background: url("../stardust.png");
+}
+
+.gameboard{
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.square{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #787A7A;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.small{
+  width:200px;
+  height: 300px;
+  border-radius: 90px;
+  border: white solid 5px;
+}
+
+.parent{
+  
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: grey;
+  height: 500px;
+  margin-top: 0px;
+}
+
+.parent h1{
+  font-family: verdana;
+  margin-top: 0px;  
+  padding-top: 50px;
+}
